@@ -1,0 +1,16 @@
+.customDialog{
+    z-index: 6;
+    position: fixed;
+}
+.customDialog .closeButton{
+    background-image: url('../../../../../assets/images.png');
+    width: 25px;
+    height: 25px;
+    background-size: 325px 320px;
+    background-position: -323% 316%;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    cursor: pointer;
+    font-weight: 700;
+}

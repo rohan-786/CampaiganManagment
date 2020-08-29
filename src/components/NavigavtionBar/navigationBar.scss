@@ -1,0 +1,26 @@
+.navWrap{
+    position: absolute;
+    left: 200px;
+    top: 210px;
+    .tab{
+        width: 178px;
+        height: 28px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        margin-right: 36px;
+        cursor: pointer;
+        
+    }
+    .selected{
+        color: #83A515;
+    }
+    .selectedBar{
+        width: 209px;
+        height: 4px;
+        background: #83A515;
+        margin-top: 15px;
+    }
+}

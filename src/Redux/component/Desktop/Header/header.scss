@@ -1,0 +1,16 @@
+.siteHeader{
+    width:100%;
+    height: 60px;
+    border-bottom: 2px solid #999;
+    
+    .customButtonsignIn button{
+        background: none;
+        padding: 7px 11px 7px 11px;
+        position: absolute;
+        right: 153px;
+        top: 21px;
+        color: green;
+        border: 1px solid green;
+    }
+}
+

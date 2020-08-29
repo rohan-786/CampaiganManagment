@@ -1,0 +1,25 @@
+.listTabs{
+    height: 48px;
+    background: #F1F1F4;
+    .even{
+        display: inline-block;
+        width: 14%;
+        margin-top: 12px;
+        margin-left: 20px;
+    }
+    .odd{
+        display: inline-block;
+        width: 28%;
+        margin-top: 12px;
+        margin-left: 20px;
+    }
+    .mini_bold{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #556789;
+    }
+}

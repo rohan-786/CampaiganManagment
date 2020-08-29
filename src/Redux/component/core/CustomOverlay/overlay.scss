@@ -1,0 +1,19 @@
+.customOverlay{
+    .overlay{
+        z-index: 5;
+        width: 1299px;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    
+    }
+    .whiteOverlay{
+        background: white;
+        opacity: 0.8;
+    }
+    .blackOverlay{
+        background: black;
+        opacity: 0.4;
+    }
+}
