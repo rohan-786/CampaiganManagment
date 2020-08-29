@@ -1,0 +1,35 @@
+{
+  "name": "bookstore-frontend",
+  "version": "1.0.0",
+  "description": "This is the front-end part of bookover flow project.",
+  "main": "client.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohan-786/Project-BookStore-frontend.git"
+  },
+  "author": "Rohan choudhary",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohan-786/Project-BookStore-frontend/issues"
+  },
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "webpack": "4.19.0",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.1",
+    "html-webpack-plugin": "^3.1.0"
+  },
+  "homepage": "https://github.com/rohan-786/Project-BookStore-frontend#readme"
+}
