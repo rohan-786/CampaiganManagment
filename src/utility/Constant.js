@@ -31,3 +31,19 @@ export const listTabs=[
         label:"ACTIONS"
     }
 ]
+
+export const dummyPricingData = {
+    imgClass : "item8",
+    name : "PUBG MOBILE",
+    location : "US",
+    pricingHeading : "Pricing",
+    pricing :[
+        {'label':"1 Week - 1 Month",
+         'value' : "$100.00"},
+         {'label':"6 Months",
+         'value' : "$500.00"},
+         {'label':"1 Year",
+         'value' : "$900.00"}
+    ]
+
+}

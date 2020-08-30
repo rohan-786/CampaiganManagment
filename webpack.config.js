@@ -3,7 +3,6 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CleanWebpackPlugin = require("clean-webpack-plugin");
 
 
-
 const jsRule = {
     test: /\.js$/,
     exclude: /(node_modules)/,
@@ -45,6 +44,7 @@ const fileLoaderRules = {
     test: /\.(gif|jpg|png|ico)$/,
     use:[{
             loader : "file-loader",
+            
         }]
 }
 

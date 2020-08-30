@@ -26,8 +26,11 @@ class CustomDialogBox extends React.Component {
 
     componentDidMount() {
         const {setOverLay} = this.props;
-        if(this.props.children)
+        if(this.props.children){
             setOverLay(true);
+            document.body.style.overflow="hidden"; 
+        }
+          
     }
 
     closeDialog(event) {
@@ -46,14 +49,14 @@ class CustomDialogBox extends React.Component {
 
     }
     render() {
-        const { name } = this.props;
+        const { name , toggleDialogFlag } = this.props;
         const { dialogFlag } = this.state;
         if (isEmpty(name)) return null;
         return (
-            dialogFlag ? <div className={`customDialog${name}`}>
+           toggleDialogFlag  ? <div className={`customDialog${name}`}>
                 <div className={'customDialog'}>
                     {this.props.children}
-                    <span className={'closeButton'} onClick={event => { this.closeDialog() }}>X</span>
+                    {/* <span className={'closeButton'} onClick={event => { this.closeDialog() }}>X</span> */}
                 </div>
             </div> : null);
     }

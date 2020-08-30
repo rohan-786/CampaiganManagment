@@ -1,0 +1,100 @@
+.pricingWrap{
+   width:400px;
+   height: 464px; 
+   background-color: white;
+   .titleContainer{
+       display: inline-block;
+       margin-left: 20px;
+        .imgWrap{
+           width: 137px;
+           height: 137px; 
+           background-size: 153px;
+           display: inline-block;   
+           margin-right: 10px; 
+        }
+        .titlefonts{
+            font-family: Roboto;
+            font-style: normal;
+            display: inline-block;
+            .headBold{
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+                color: #2B416C;
+                display: block;
+                
+            
+            }
+            .semiBold{
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 16px;
+                color: #9CA2B7;
+                display: block;
+                margin-top: 14px;
+            }
+        }
+   } 
+   .priceContainer{
+    margin-left: 20px;
+    margin-top: 30px;
+    font-family: Roboto;
+    font-style: normal;
+       .titleBold{
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 32px;
+        color: #2B416C;
+       }
+       .priceInfo{
+           margin-top: 17px;
+           div{
+               margin-bottom: 20px;
+               position: relative;
+           }
+           .rowLabel{
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            color: #7788A3;
+           }
+           .rowVal{
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: right;
+            color: #556789;
+            position: absolute;
+            right: 10px;
+           }
+       }
+      
+   }
+
+   .closeBtn{
+    border: 2px solid #181B34;
+    padding: 14px 22px;
+    width: 41px;
+    height: 19px;
+    margin-left: 158px;
+    margin-top:61px;
+    span{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #181B34;
+        
+    }
+   }
+   .item8{
+    background-image: url('../../assets/Bitmap4Large.png'); 
+    }
+   
+   
+}
+
+
+

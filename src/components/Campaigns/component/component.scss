@@ -1,9 +1,10 @@
+@import "./font.scss";
 .listTabs{
     height: 48px;
     background: #F1F1F4;
     .even{
         display: inline-block;
-        width: 14%;
+        width: 16%;
         margin-top: 12px;
         margin-left: 20px;
     }
@@ -22,4 +23,111 @@
         text-transform: uppercase;
         color: #556789;
     }
+   
+}
+
+.calendar{
+    background-image: url('../../../assets/calendar.png');
+}
+.file{
+    background-image: url('../../../assets/file.png'); 
+}
+.price{
+    background-image: url('../../../assets/Price.png'); 
+}
+.statistics{
+    background-image: url('../../../assets/statistics-report.png'); 
+}
+.item1{
+    background-image: url('../../../assets/Bitmap.png'); 
+}
+.item1{
+    background-image: url('../../../assets/Bitmap1.png'); 
+}
+.item2{
+    background-image: url('../../../assets/Bitmap2.png'); 
+}
+.item3{
+    background-image: url('../../../assets/Bitmap3.png'); 
+}
+.item4{
+    background-image: url('../../../assets/Bitmap4.png'); 
+}
+.item5{
+    background-image: url('../../../assets/Bitmap5.png'); 
+}
+.item6{
+    background-image: url('../../../assets/Bitmap6.png'); 
+}
+.item7{
+    background-image: url('../../../assets/Bitmap7.png'); 
+}
+
+
+.row{
+    width: 100%;
+    padding: 25px 20px;
+    div{
+        display: inline-block;
+    }
+    span{
+        display: block;
+    }
+    
+        .even{
+            display: inline-block;
+            width: 16%;
+            margin-top: 12px;
+            margin-right: 20px;
+        }
+        .odd{
+            display: inline-block;
+            width: 28%;
+            margin-top: 12px;
+            margin-right: 20px;
+        }
+        .spacer40{
+            margin-right: 40px;
+        }
+        .spacer60{
+            margin-right: 60px;
+        }
+    
+        .iconSpecCamp{
+            width: 40px;
+            height: 40px;
+            display: inline-block;
+            background-size: 40px;
+            margin-right: 14px;
+        }
+        .iconSpecPrice{
+            width: 24px;
+            height: 24px;
+            display: inline-block;
+            background-size: 24px;
+            margin-right: 14px;
+            
+        }
+        .iconSpecActions{
+            width: 24px;
+            height: 24px;
+            display: inline-block;
+            background-size: 24px;
+            margin-right: 6px;
+        }
+
+}
+
+.line{
+width: 93%;
+
+border: 1px solid #ECECEC;
+}
+
+.customDialogpricingDialog .customDialog{
+    
+    padding: 50px;
+    top: 15%;
+    left: 30%;
+    
 }

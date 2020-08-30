@@ -1,0 +1,49 @@
+.font{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    .dateFont{
+        .semiBold{
+            font-size: 16px;
+            line-height: 24px;
+            color: #2B416C;
+        }
+        .miniBoldI{
+         font-style: italic;
+         font-size: 14px;
+         line-height: 24px;
+         color: #7788A3;
+        }
+    }
+    .campaignFont{
+        .semiBold{
+            font-size: 16px;
+            line-height: 24px;
+            color: #556789;
+        }
+        .miniBoldI{
+            font-style: italic;
+            font-size: 14px;
+            line-height: 24px;
+            color: #9CA2B7;
+        }
+    }
+    .viewFont{
+        font-size: 14px;
+        line-height: 16px;
+        color: #7788A3;
+        display: inline-block;
+        position: absolute;
+        margin-top: 4px;
+        cursor: pointer;
+    }
+    .actions{
+        font-size: 14px;
+        line-height: 16px;
+        color: #7788A3;
+        display: inline-block;
+        position: absolute;
+        margin-top: 4px;
+        cursor: pointer;
+    }
+}
