@@ -1,0 +1,27 @@
+.Btn{
+    border: 2px solid #181B34;
+    padding: 10px 20px 10px 20px;
+    height: 19px;
+    margin-top:24px;
+    margin-left: 60px;
+    cursor: pointer;
+    .schedule{
+        width: 180px;
+    }
+    .close{
+        width: 40px;
+    }
+    span{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #181B34;
+        
+    }
+}
+.mkInline{
+    display: flex;
+}

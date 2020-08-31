@@ -64,6 +64,7 @@
 }
 
 
+
 .row{
     width: 100%;
     padding: 25px 20px;
@@ -125,9 +126,19 @@ border: 1px solid #ECECEC;
 }
 
 .customDialogpricingDialog .customDialog{
-    
     padding: 50px;
     top: 15%;
     left: 30%;
     
 }
+
+.customDialogcalendarDialog .customDialog{
+    width: 500px;
+    height: 200px;
+    background-color: white;    
+    padding: 50px;
+    top: 15%;
+    left: 30%;
+    
+}
+

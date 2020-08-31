@@ -1,6 +1,6 @@
 export const apiCalls = {
     getUpcomingCampaignsData : function() {
-        let url = `http://localhost:3333/get-upcoming-campaigns-info`;
+        let url = `http://ec2-34-227-142-138.compute-1.amazonaws.com/api/get-upcoming-campaigns-info`;
         return fetch(url,{
             method :'GET',
             headers: {
@@ -10,7 +10,7 @@ export const apiCalls = {
     },
 
     getLiveCampaignsData : function() {
-        let url = `http://localhost:3333/get-live-campaigns-info`;
+        let url = `http://ec2-34-227-142-138.compute-1.amazonaws.com/api/get-live-campaigns-info`;
         return fetch(url,{
             method :'GET',
             headers: {
@@ -21,7 +21,7 @@ export const apiCalls = {
     },
 
     getPastCampaignsData : function() {
-        let url = `http://localhost:3333/get-past-campaigns-info`;
+        let url = `http://ec2-34-227-142-138.compute-1.amazonaws.com/api/get-past-campaigns-info`;
         return fetch(url,{
             method :'GET',
             headers: {
@@ -30,6 +30,20 @@ export const apiCalls = {
             }
         })
     },
+
+    updateCampaignsList : function(id,selectedDate){
+        console.log("selected",selectedDate);
+        let url = `http://ec2-34-227-142-138.compute-1.amazonaws.com/api/update-list`;
+        return fetch(url,{
+            method : 'POST',
+            headers:{
+                'Content-Type': 'application/json',
+                'dateval':selectedDate,
+                'id': id,
+                
+            }
+        })
+    }
 
 } 
 

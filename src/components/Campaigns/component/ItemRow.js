@@ -38,14 +38,14 @@ const Elements = {
         )
     },
 
-    Actions : (actionInfo)=>{
+    Actions : (actionInfo,clickHandler,data)=>{
         if(!actionInfo) return null;
         return(
             <div className="odd">
                 {actionInfo.map((item,index)=>{
                     const {logo , text , addEventHandler} = item;
                     return(
-                        <div className={index%2 == 0 ?  'spacer40' : 'spacer60'}>
+                        <div onClick ={addEventHandler ? ()=>clickHandler(data) : null} className={index%2 == 0 ?  'spacer40' : 'spacer60'}>
                             <i className={`iconSpecActions ${logo}`}></i>
                             <span className="actions">{text}</span>
                         </div>
@@ -60,13 +60,13 @@ const Elements = {
 
 
 const ItemRow=(props)=>{
-    const {pricingHandler, closePricingPopup, showLine = false,data ,data:{date, campaing ,pricing ,actions}={}} = props;    
+    const {pricingHandler, handleScheduleClick ,showLine = false,data ,data:{date, campaing ,pricing ,actions}={}} = props;    
     return(
         <div className='row font '>
             {Elements.Date(date)}
             {Elements.Campaign(campaing)}
             {Elements.View(pricing,pricingHandler,data)}
-            {Elements.Actions(actions)}
+            {Elements.Actions(actions,handleScheduleClick,data)}
             {showLine && <div className="line"></div>}
         </div>
     )
