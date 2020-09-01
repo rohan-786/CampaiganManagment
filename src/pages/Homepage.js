@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import {connect} from 'react-redux';
 import Header from '../components/Header/Header';
 import TitleLayer from '../components/TitleLayer/TitleLayer';
@@ -8,6 +8,9 @@ import Overlay from "../Redux/component/core/CustomOverlay/overlay";
 
 
 const HomePage=(props)=>{
+    useEffect(() => {
+        document.body.style.overflowX = "hidden";
+      }, []);
     return(
         <React.Fragment>
         <div>
