@@ -13,3 +13,25 @@
         color: #2B416C;
     }
 }
+
+@media only screen and (max-width: 350px) {
+    .lyrWrapper{
+        span{
+            font-size: 30px;
+            left: 20px;
+            top:80px;
+            width: 268px;
+        }
+    }
+ }
+
+ @media only screen and (max-width: 800px) {
+    .lyrWrapper{
+        span{
+            font-size: 30px;
+            left: 30px;
+            top:80px;
+            width: 268px;
+        }
+    }
+ }

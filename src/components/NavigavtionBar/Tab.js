@@ -11,7 +11,7 @@ const Tab = (props) => {
             <span onClick={()=>eventHandler(data)} className={`tab ${active ? 'selected' : ''}`} key={id}>
                 {label}
             </span>
-            {active && <span className="selectedBar"></span>}
+            {/* {active && <span className="selectedBar"></span>} */}
            
         </React.Fragment>
     )

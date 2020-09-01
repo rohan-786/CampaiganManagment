@@ -13,3 +13,26 @@
         top: 17px;
     }
 }
+
+@media only screen and (max-width: 350px) {
+   .headerWrp{
+       width: 100%;
+       img{
+           left: 20px;
+           
+       }
+   }
+}
+
+@media only screen and (max-width: 800px) {
+    .headerWrp{
+        width: 100%;
+        img{
+            left: 40px;
+        }
+    }
+ }
+
+
+
+

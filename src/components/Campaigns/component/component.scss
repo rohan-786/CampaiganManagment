@@ -142,3 +142,63 @@ border: 1px solid #ECECEC;
     
 }
 
+@media only screen and (max-width: 350px) {
+    .listTabs{ display: none;}
+    .row{width: 95%;
+        padding:10px 20px;
+        .odd{
+            display: flex;
+            width: auto;
+        }
+        .even{
+           // display: flex;
+            width: auto;
+        }
+    }
+    .customDialogpricingDialog .customDialog{
+        padding:27px;
+        top: 9%;
+        left: -5%;
+    }
+    .customDialogcalendarDialog .customDialog {
+        width: 292px;
+        height: 200px;
+        background-color: white;
+        padding: 22px;
+        top: 31%;
+        left: 3%;
+    }
+    
+    
+ }
+ @media only screen and (max-width: 800px) {
+    .listTabs{display: none;}
+    .row{width: 95%;
+        padding:10px 20px;
+        .odd{
+            display: flex;
+            width: auto;
+        }
+        .even{
+           // display: flex;
+            width: auto;
+        }
+    }
+    .customDialogpricingDialog .customDialog{
+        top: 9%;
+    left: -5%;
+        padding:27px;
+        
+    }
+    .customDialogcalendarDialog .customDialog {
+        width: 292px;
+        height: 200px;
+        background-color: white;
+        padding: 22px;
+        top: 31%;
+        left: 3%;
+    }
+    
+    
+ } 
+

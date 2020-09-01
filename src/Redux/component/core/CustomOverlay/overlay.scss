@@ -1,7 +1,7 @@
 .customOverlay{
     .overlay{
         z-index: 5;
-        width: 1299px;
+        width: 12999px;
         height: 120000px;
         position: absolute;
         top: 0px;
@@ -17,3 +17,10 @@
         opacity: 0.4;
     }
 }
+
+@media only screen and (max-width: 350px) {
+    .customOverlay{.overlay{width: 100%;}}
+ }
+ @media only screen and (max-width: 800px) {
+    .customOverlay{.overlay{width: 100%;}}
+ }

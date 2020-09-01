@@ -24,3 +24,10 @@
         margin-top: 15px;
     }
 }
+
+@media only screen and (max-width: 350px) {
+    .navWrap{display: flex; left: 20px; top:168px; .tab{width: 80px;} }
+ }
+ @media only screen and (max-width: 800px) {
+    .navWrap{display: flex; left: 20px;top:168px; .tab{width: 80px;}}
+ } 
